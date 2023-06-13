@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("./RolexLight.woff2");
+}
+.bodyhome
+{
+    background-image: url(./bghome.png);
+    background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+
+}
+.login-btnh {
+    width: 13%;
+   margin-left:138vh;
+  margin-bottom: 3.0em;
+ position:absolute;
+ top:65vh;
+ 
+    height: 7vh;
+   text-align: center;
+    background-color: rgb(57, 23, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 1.25em;
+    cursor: pointer;
+    color: rgb(249, 248, 247);
+}
+.login-btnh:hover{
+    
+    box-shadow: 0 0.198em 1.570em rgb(235, 130, 95);
+}

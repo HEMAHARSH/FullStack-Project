@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("./RolexLight.woff2");
+}
+.bodyupdate
+{
+    background-image: url(./bgggg.jpg);
+    background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+
+}
+.coverupdate {
+    background-color: rgba(19, 10, 5, 0.829);
+    width: 40%;
+    height: 95%;
+    top: 2%;
+    opacity: 0.8;
+    
+    margin-left: 60vh;
+    position: relative;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.formup{
+    margin-top: -20vh;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+input {
+    width: 80%;
+    height:0em;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0.5em;
+    text-align: center;
+   
+    font-size: 1em;
+}
+
+input:focus {
+    outline-color: rgb(51, 19, 9);
+}
+.signup-btnup{
+    width: 30%;
+    margin-top: 2vh;
+ margin-right:8vh;
+ 
+    height: 2.5em; 
+    /* justify-content: center;
+    align-items: center; */
+    transition: 0.5s;
+    border-radius: 1.25em;
+    cursor: pointer;
+    background-color: rgb(57, 11, 11);
+    color: aliceblue;
+}
+.cancel-btn{
+    width: 30%;
+    height: 2.5em; 
+    color: aliceblue;
+    border-radius: 1.25em;
+    cursor: pointer;
+    margin-left:5vh;
+    background-color: rgb(57, 11, 11);
+}
+.coverupdate:hover{
+    
+    box-shadow: 0 0.188em 1.550em rgb(232, 139, 108);
+}
+.signup-btnup:hover { transform: scale(1.05);}
+
+.text {
+    position: relative;
+    bottom: 0.5%;
+}
+
+.signup-popup {
+    position: absolute;
+    height: 28em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: rgb(250, 247, 247);
+    color: rgb(9, 9, 8);
+    bottom: -1em;
+    transform: scale(1);
+    transition: 1.5s;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Quicksand:wght@700&display=swap');
+
+.txtupdate{
+   
+    color:rgb(241, 234, 234);
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    
+    margin-top: -5vh;
+/* font-family: 'Quicksand', sans-serif; */
+}
+
+
+
+
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 37em) {
+    .page {
+        font-size: 1em;
+    }
+
+    .cover2{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 64em) {
+    .page {
+        
+        font-size: 1.25em;
+    }
+    
+    .cover2 {
+        top:-1%;
+        left: 2%;
+        width: 36%;
+        height: 83%;
+    }
+}
