@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+    
+}
+#vieworder{
+  font-size: large;
+  position: absolute;
+  top:5vh;
+  right: 29vh;
+  color:rgb(249, 244, 244);
+}
+#logout{
+  font-size: large;
+  position: absolute;
+  top:5vh;
+  right: 5vh;
+  color:rgb(247, 245, 245);
+}
+
+.navbar {
+    
+    color: white;
+    padding:10px 700px 10px 0px;
+    /* background-color: rgb(31, 13, 13); */
+    opacity: 0.7;
+   text-decoration: rgb(240, 233, 233);
+    
+    font-size: xxx-large;
+  }
+
+  @font-face {
+    font-family: "CustomFont";
+    src: url("./RolexLight.woff2");
+}
